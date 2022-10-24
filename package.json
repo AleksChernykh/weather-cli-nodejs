@@ -1,0 +1,25 @@
+{
+  "name": "weather-cli-aleksche",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Aleksandr Chernykh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "chalk": "^5.1.2",
+    "dedent-js": "^1.0.1"
+  }
+}
